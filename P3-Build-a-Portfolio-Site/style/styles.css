@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #ccc;
+  height: 120px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.info {
+  flex: 1;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.image {
+  width: 100%;
+  
+}
+
+.img {
+  /* display: block; */
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+  
+}
+
+.projectInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
